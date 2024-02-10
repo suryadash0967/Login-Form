@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;700&family=Kaisei+Opti:wght@700&family=Kanit:wght@400;500;600&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: rgba(0, 175, 88, 0.671);
+}
+
+.screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 18rem;
+    height: 18.5rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.bottom-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 2rem 1.4rem;
+
+}
+
+.phone, .pswd{
+    display: flex;
+}
+
+.log-head{
+    font-weight: 600;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a8a4e;
+    color: #fff;
+}
+
+.foot-para{
+    font-size: 0.85rem;                 
+}
+
+.sign-up{
+    color: #0a8a4e;
+    text-decoration: none;                        
+}
+
+.fgt-pswd{
+    color: #0a8a4e;
+    font-size: 0.87rem;
+    text-decoration: none;         
+}
+
+.log-btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+#login{
+    font-family: 'Poppins';
+    width: 100%;
+    background-color: #0a8a4e;
+    height: 2rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#login:hover{
+    cursor: pointer;
+    background-color: #076338;
+}
+
+.bx{
+    background-color: #0a8a4e;
+    padding: 0.5rem;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #fff;
+}
+
+.user-input{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone, .pswd{
+    height: 100rem;
+    margin: 0.5rem;
+}
+
+input{
+    width: 13rem;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+    outline: none;
+    font-size: 0.8rem;
+    padding: 8px;
+    font-family: 'Poppins';
+}
+
+.forgot{
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+input:active{
+    outline: 1px solid #0a8a4e;
+}
+
+input:focus{
+    outline: 1px solid #0a8a4e;
+}
+
+.footer{
+    padding-top: 1rem;
+}
