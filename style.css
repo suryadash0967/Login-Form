@@ -58,6 +58,8 @@ a:hover{
     align-items: center;
     background-color: #0a8a4e;
     color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 .foot-para{
